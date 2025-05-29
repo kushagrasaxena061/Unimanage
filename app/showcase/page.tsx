@@ -2,13 +2,12 @@
 
 import mainImage from "@/public/—Pngtree—purple swirling flash light effect_6487386.png";
 import Image from "next/image";
-import Link from "next/link";
 
 const categories = [
   {
     title: "FINANCES",
     items: [
-      { name: "BillPro", href: "https://billpro1.vercel.app/login" },
+      { name: "BillPro", href: "https://billpro1.vercel.app/dashboard/invoices" },
       { name: "Pennywise", href: "https://pennywise3.vercel.app/transactions" },
       { name: "Save bills", href: "https://buildify1.vercel.app/subaccount/ed3dc85d-69fc-4889-8ae5-1deb0589627e/media" },
     ],
@@ -16,33 +15,33 @@ const categories = [
   {
     title: "SALES",
     items: [
-      { name: "Total Sales", href: "https://pennywise3.vercel.app/sign-in?redirect_url=https%3A%2F%2Fpennywise3.vercel.app%2F" },
-      { name: "Invoice Sales", href: "https://billpro1.vercel.app/login" },
-      { name: "Agency Sales", href: "https://buildify1.vercel.app/agency/sign-in" },
+      { name: "Total Sales", href: "https://pennywise3.vercel.app" },
+      { name: "Invoice Sales", href: "https://billpro1.vercel.app/dashboard/invoices" },
+      { name: "Agency Sales", href: "https://buildify1.vercel.app/agency/a5ad8195-e60d-4cda-8b95-f908c075c022" },
     ],
   },
   {
     title: "WEBSITES",
     items: [
-      { name: "Website Builder", href: "https://buildify1.vercel.app/agency/sign-in" },
-      { name: "Website Editor", href: "https://buildify1.vercel.app/agency/sign-in" },
+      { name: "Website Builder", href: "https://buildify1.vercel.app/subaccount/ed3dc85d-69fc-4889-8ae5-1deb0589627e/funnels/fdcf83d6-a945-45d9-82af-33df62cc7a67" },
+      { name: "Website Editor", href: "https://buildify1.vercel.app/subaccount/ed3dc85d-69fc-4889-8ae5-1deb0589627e/funnels" },
       { name: "Domain", href: "https://shopsphere.buildify1.vercel.app/" },
     ],
   },
   {
     title: "SUPPLY CHAIN",
     items: [
-      { name: "Stockify", href: "https://stockify1.vercel.app/login" },
-      { name: "Teams", href: "https://buildify1.vercel.app/agency/sign-in" },
+      { name: "Stockify", href: "https://stockify1.vercel.app/dashboard" },
+      { name: "Teams", href: "https://buildify1.vercel.app/agency/a5ad8195-e60d-4cda-8b95-f908c075c022/team" },
       { name: "Tasktitan", href: "https://tasktitan1.vercel.app/" },
     ],
   },
   {
     title: "HUMAN RESOURCES",
     items: [
-      { name: "Admin", href: "https://teamtrack1.vercel.app/" },
-      { name: "Teamtrack", href: "https://teamtrack1.vercel.app/" },
-      { name: "Departments", href: "https://teamtrack1.vercel.app/" },
+      { name: "Admin", href: "https://teamtrack1.vercel.app/admin?date=Fri%20Dec%2006%202024%2014:22:20%20GMT+0530%20(India%20Standard%20Time)" },
+      { name: "Teamtrack", href: "https://teamtrack1.vercel.app" },
+      { name: "Departments", href: "https://teamtrack1.vercel.app/list/subjects" },
     ],
   },
   {
@@ -56,9 +55,9 @@ const categories = [
   {
     title: "SERVICES",
     items: [
-      { name: "Pipelines", href: "https://buildify1.vercel.app/agency/sign-in" },
+      { name: "Pipelines", href: "https://buildify1.vercel.app/subaccount/ed3dc85d-69fc-4889-8ae5-1deb0589627e/pipelines" },
       { name: "Calendly", href: "https://calendly1.vercel.app/" },
-      { name: "Connecto", href: "https://connecto1.vercel.app/sign-in?redirect_url=https%3A%2F%2Fconnecto1.vercel.app%2F" },
+      { name: "Connecto", href: "https://connecto1.vercel.app/" },
     ],
   },
   {
